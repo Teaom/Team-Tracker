@@ -5,7 +5,7 @@ const util = require('util');
 
 let connection = mysql.createConnection({
     host: 'localhost',
-    port: 3001,
+    port: 3306,
     user: 'root',
     password: 'tnomerf',
     database: 'employee_DB'
