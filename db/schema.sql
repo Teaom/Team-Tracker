@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS inventory_db;
-CREATE DATABASE inventory_db;
-USE inventory_db;
+DROP DATABASE IF EXISTS employee_DB;
+CREATE DATABASE employee_DB;
+USE employee_DB;
 
 CREATE TABLE role (
     id INTEGER NOT NULL AUTOINCREMENT,
